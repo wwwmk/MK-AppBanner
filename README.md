@@ -2,7 +2,7 @@
 Mobile app download banner for websites.
 Works with Android and iOS.
 
-![image](https://user-images.githubusercontent.com/38394409/113854416-887a9680-97a7-11eb-846a-346bce9a60ea.png)
+![image](light.png)
 ![image](image.png)
 >Automatic dark theme
 
