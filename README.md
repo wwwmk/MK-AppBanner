@@ -10,9 +10,8 @@ Works with Android and iOS.
 
 Place the following code in the head of your page:
 ```javascript
-<script src="https://raw.githubusercontent.com/wwwmk/MK-AppBanner/main/appbanner.js"></script>
-<link rel="stylesheet" href="https://raw.githubusercontent.com/wwwmk/MK-AppBanner/main/banner.css">
-  ```
+<script src="https://cdn.jsdelivr.net/gh/wwwmk/MK-AppBanner/appbanner.js"></script>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/wwwmk/MK-AppBanner/banner.css">  ```
 ## Step 2
 
 Place the following code in the body of your page:
