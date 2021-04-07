@@ -11,7 +11,9 @@ Works with Android and iOS.
 Place the following code in the head of your page:
 ```javascript
 <script src="https://cdn.jsdelivr.net/gh/wwwmk/MK-AppBanner/appbanner.js"></script>
-<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/wwwmk/MK-AppBanner/banner.css">  ```
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/wwwmk/MK-AppBanner/banner.css">
+```
+
 ## Step 2
 
 Place the following code in the body of your page:
@@ -24,6 +26,7 @@ Place the following code in the body of your page:
   initappbanner();
 </script>
 ```
+
 ## Step 3
 
 Replace the name, logo and links to those of the app. To only show the banner on Android, remove the line with "applinkiphone". To only show on iPhone, remove the line with "applinkandoid".
