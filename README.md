@@ -1,6 +1,10 @@
 # MK-AppBanner
 Mobile app download banner for websites.
+
 Works with Android and iOS.
+
+
+Preview: https://wwwmk.github.io/MK-AppBanner/
 
 
 ![image](light.png)
