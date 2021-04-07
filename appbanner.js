@@ -2,9 +2,9 @@ var appname = "Name of the App";
 var applinkiphone = "";
 var applinkandoid = "";
 var applogo = "";
+var appinfo = "Get the App";
 
 var correctapplink;
-var correctappinfo;
 
 function initappbanner()
 {
@@ -13,7 +13,6 @@ function initappbanner()
     if(applinkandoid)
     {
       correctapplink = applinkandoid;
-      correctappinfo = "On the Play Store";
       showMobile();
     }
   }
@@ -22,7 +21,6 @@ function initappbanner()
     if(applinkiphone)
     {
       correctapplink = applinkiphone;
-      correctappinfo = "On the App Store";
       showMobile();
     }
   }
@@ -46,12 +44,11 @@ function showMobile()
   title1234.innerText = appname;
   title1234.id = "title";
   textcont1234.append(title1234);
-  textcont1234.innerHTML += "<br>" + correctappinfo;
+  textcont1234.innerHTML += "<br>" + appinfo;
 
   textcont1234.prepend(image1234);
   bannerDiv.append(textcont1234);
   bannerDiv.innerHTML += '<svg viewBox="0 0 24 24"><path d="M19 9h-4V3H9v6H5l7 7 7-7zM5 18v2h14v-2H5z"/></svg>';
 
-  ////
   document.body.prepend(bannerDiv);
 }
