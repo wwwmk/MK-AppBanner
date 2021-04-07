@@ -29,4 +29,6 @@ Place the following code in the body of your page:
 
 ## Step 3
 
-Replace the name, logo and links to those of the app. To only show the banner on Android, remove the line with "applinkiphone". To only show on iPhone, remove the line with "applinkandoid".
+Replace the name, logo and links to those of the app.
+To only show the banner on Android, remove the line with "applinkiphone".
+To only show on iPhone, remove the line with "applinkandoid".
