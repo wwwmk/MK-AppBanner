@@ -6,13 +6,13 @@ Works with Android and iOS.
 ![image](image.png)
 >Automatic dark theme
 
-#Step 1
+# Step 1
 
 Place the following code in the <head> of your page:
 <script src="https://raw.githubusercontent.com/wwwmk/MK-AppBanner/main/appbanner.js"></script>
 <link rel="stylesheet" href="https://raw.githubusercontent.com/wwwmk/MK-AppBanner/main/banner.css">
   
-#Step 2
+# Step 2
 
 Place the following code in the <body> of your page:
 
@@ -24,6 +24,6 @@ Place the following code in the <body> of your page:
   initappbanner();
 </script>
 
-#Step 3
+# Step 3
 
 Replace the name, logo and links to those of the app. To only show the banner on Android, remove the line with "applinkiphone". To only show on iPhone, remove the line with "applinkandoid".
