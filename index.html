@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="utf-8">
+    <title>MK-AppBanner</title>
+    <script src="https://cdn.jsdelivr.net/gh/wwwmk/MK-AppBanner/appbanner.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/wwwmk/MK-AppBanner/banner.css">
+    <style media="screen">
+      *
+      {
+        box-sizing: border-box
+      }
+      body
+      {
+        margin: auto;
+        max-width: 60rem;
+        width: 100%;
+        font-size: 16px;
+      }
+      p, h1, h2, pre
+      {
+        padding: 0 1rem
+      }
+      img
+      {
+        display: block;
+        width: 100%;
+      }
+      pre
+      {
+        max-width: 100%;
+        overflow: scroll;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>MK-AppBanner</h1>
+    <p>Mobile app download banner for websites. Works with Android and iOS.</p>
+    <img src="image.png" alt="">
+    <img src="dark.png" alt="">
+
+    <h2>Step 1</h2>
+    <p>Place the following code in the head of your page:</p>
+    <pre><code>&lt;script src="https://cdn.jsdelivr.net/gh/wwwmk/MK-AppBanner/appbanner.js"&gt;&lt;/script&gt;
+&lt;link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/wwwmk/MK-AppBanner/banner.css"&gt;</code></pre>
+
+    <h2>Step 2</h2>
+    <p>Place the following code in the body of your page:</p>
+    <pre><code>&lt;script type="text/javascript"&gt;
+  appname = "Facebook";
+  appinfo = "Get the App";
+  applogo = "icon.png";
+  applinkiphone = "https://apps.apple.com/us/app/facebook/id284882215";
+  applinkandoid = "https://play.google.com/store/apps/details?id=com.facebook.katana";
+  initappbanner();
+&lt;/script&gt;</code></pre>
+
+  <script type="text/javascript">
+    appname = "Facebook";
+    appinfo = "Get the App";
+    applogo = "https://play-lh.googleusercontent.com/ccWDU4A7fX1R24v-vvT480ySh26AYp97g1VrIB_FIdjRcuQB2JP2WdY7h_wVVAeSpg=s180-rw";
+    applinkiphone = "https://apps.apple.com/us/app/facebook/id284882215";
+    applinkandoid = "https://play.google.com/store/apps/details?id=com.facebook.katana";
+    initappbanner();
+  </script>
+  </body>
+</html>
