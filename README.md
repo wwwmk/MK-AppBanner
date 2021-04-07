@@ -8,13 +8,13 @@ Works with Android and iOS.
 
 ## Step 1
 
-Place the following code in the <head> of your page:
+Place the following code in the head of your page:
 <script src="https://raw.githubusercontent.com/wwwmk/MK-AppBanner/main/appbanner.js"></script>
 <link rel="stylesheet" href="https://raw.githubusercontent.com/wwwmk/MK-AppBanner/main/banner.css">
   
 ## Step 2
 
-Place the following code in the <body> of your page:
+Place the following code in the body of your page:
 
 <script type="text/javascript">
   appname = "Facebook";
