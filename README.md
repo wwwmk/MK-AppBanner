@@ -23,6 +23,7 @@ Place the following code in the body of your page:
 ```javascript
 <script type="text/javascript">
   appname = "Facebook";
+  appinfo = "Get the App";
   applogo = "https://play-lh.googleusercontent.com/ccWDU4A7fX1R24v-vvT480ySh26AYp97g1VrIB_FIdjRcuQB2JP2WdY7h_wVVAeSpg=s180-rw";
   applinkiphone = "https://apps.apple.com/us/app/facebook/id284882215";
   applinkandoid = "https://play.google.com/store/apps/details?id=com.facebook.katana";
@@ -33,7 +34,7 @@ Place the following code in the body of your page:
 
 ## Step 3
 
-Replace the name, logo and links to those of the app.
+Replace the name, appinfo, logo and links to those of the app.
 
 To only show the banner on Android, remove the line with "applinkiphone".
 
