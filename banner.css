@@ -11,6 +11,7 @@
   text-align: left;
   line-height: 1.5rem;
   font-weight: 600;
+  font-family: 'system-ui', '-apple-system', 'BlinkMacSystemFont', 'Arial', sans-serif;
 }
 
 #installbanner div
