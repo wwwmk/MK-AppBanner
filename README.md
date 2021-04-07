@@ -9,13 +9,14 @@ Works with Android and iOS.
 ## Step 1
 
 Place the following code in the head of your page:
+```javascript
 <script src="https://raw.githubusercontent.com/wwwmk/MK-AppBanner/main/appbanner.js"></script>
 <link rel="stylesheet" href="https://raw.githubusercontent.com/wwwmk/MK-AppBanner/main/banner.css">
-  
+  ```
 ## Step 2
 
 Place the following code in the body of your page:
-
+```javascript
 <script type="text/javascript">
   appname = "Facebook";
   applogo = "https://play-lh.googleusercontent.com/ccWDU4A7fX1R24v-vvT480ySh26AYp97g1VrIB_FIdjRcuQB2JP2WdY7h_wVVAeSpg=s180-rw";
@@ -23,7 +24,7 @@ Place the following code in the body of your page:
   applinkandoid = "https://play.google.com/store/apps/details?id=com.facebook.katana";
   initappbanner();
 </script>
-
+```
 ## Step 3
 
 Replace the name, logo and links to those of the app. To only show the banner on Android, remove the line with "applinkiphone". To only show on iPhone, remove the line with "applinkandoid".
